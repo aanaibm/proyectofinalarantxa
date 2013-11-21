@@ -1,0 +1,171 @@
+/*
+Theme name: MIA
+*/
+body{width:100%;
+margin:0px;
+background:#ffffff;}
+
+@font-face {
+	font-family: 'TravelingTypewriter';
+	src: url('fonts/TravelingTypewriter.eot');
+	src: local('☺'), url('fonts/TravelingTypewriter.woff') format('woff'), url('fonts/TravelingTypewriter.ttf') format('truetype'), url('fonts/TravelingTypewriter.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+#wrapper{
+width:100%;
+margin:0 auto;
+background:#ffffff;
+}
+
+#menubar ul{
+	margin:0px;
+	padding:0;
+	list-style:none;
+	list-style-type:none;
+	opacity:0;
+	visibility:hidden;
+	position:absolute;
+	transition: all .5s ease-in-out;
+	position:absolute;
+	z-index:5;
+}
+
+#menubar img{
+	width:80px;
+	height:40px;
+	float:left;
+	opacity:1;
+	margin-left:20px;
+}
+
+#menubar img:hover{
+	opacity:0.4;
+}
+
+
+#menubar {
+	width:100%;
+	height:60px;
+	margin:0px 0 0 0px;
+	padding-left:470px;
+	background-color:#fff;
+	position:fixed;
+	z-index:5;
+}
+
+#menubar:before,
+#menubar:after{
+	content:"";
+	display:table;
+}
+
+#menubar:after{
+	clear:both;
+}
+
+#menubar{
+	zoom:1;
+}
+
+#menubar li{
+	float:left;
+	position:relative;
+	list-style-type:none;
+}
+
+
+#menubar li:hover >ul{
+	opacity:1;
+	visibility:visible;
+	margin:50px 0 0 0;
+}
+
+/*FIN BARRA*/
+
+#fondo{position:fixed;
+width:500px;
+margin:0px 0px 0px 10px;
+opacity:0.4;}
+
+#fondo img{
+	opacity:0.4;
+}
+#fondo img:hover{
+	opacity:1.0;
+}
+
+#content{position:fixed;
+padding:50px 0px 0px 0px;
+background-color:#fff;
+width:500px;
+height:500px;
+margin-left:390px;
+margin-top:60px;
+border-radius:700px;
+border:dashed 2px #837878;}
+/*FIN FONDO PRINCIPAL*/
+
+#lateral{position:fixed;
+width:150px;
+height:530px;
+margin:150px 0px 0px 0px;
+background-color:#ffffff;
+border:solid 1px #9d9d9d;
+padding:0px;
+font-family:TravelingTypewriter;}
+
+#lateral ul{
+	list-style:none;
+	overflow:scroll;
+	margin:220px 0 130px 0;
+}
+
+#lateral ul li{
+	margin-bottom:10px;
+}
+
+#lateral a:link
+{text-decoration:none;}
+
+#lateral a:visited{
+	text-decoration:none;
+	color:#000;
+}
+
+#lateral a:hover{
+	text-decoration:none;
+	color:#e0e0e0;
+}
+
+#grande{
+overflow:scroll;
+position:fixed;
+width:1180px;
+height:530px;
+margin:150px 0px 0px 155px;
+background-color:#ffffff;
+border: solid 1px #9d9d9d;
+padding:0px;
+}
+
+#cajatexto{
+	height:530px;
+	width:600px;
+	margin:0px 0px 0px 250px;
+	background-color:#fff;
+	text-align:justify;
+	font-family:TravelingTypewriter;
+}
+
+/*FIN DE WRITING*/
+
+
+#gallery img{
+	margin:50px 0px 0px 400px;
+	width:500px;
+}
+
+/* FIN ART*/
+
